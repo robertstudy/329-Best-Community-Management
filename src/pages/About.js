@@ -31,7 +31,7 @@ const About = ({ language, accessibilitySettings }) => {
               </div>
               <div>
                 <img 
-                  src="" 
+                  src="/pictures/about/community-center.jpg" 
                   alt="Community Center"
                   style={{ width: '100%', height: 'auto', borderRadius: '0.5rem' }}
                 />
@@ -70,10 +70,10 @@ const About = ({ language, accessibilitySettings }) => {
           <h2 style={{ textAlign: 'center', marginBottom: '2rem' }}>Our Team</h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '2rem' }}>
             {[
-              { name: 'Maria Rodriguez', role: 'Executive Director', image: '' },
-                { name: 'John Smith', role: 'Program Manager', image: '' },
-              { name: 'Sarah Johnson', role: 'Community Outreach', image: '' },
-              { name: 'David Chen', role: 'Operations Manager', image: '' }
+              { name: 'Maria Rodriguez', role: 'Executive Director', image: '/pictures/about/team/maria.jpg' },
+                { name: 'John Smith', role: 'Program Manager', image: '/pictures/about/team/john.jpg' },
+              { name: 'Sarah Johnson', role: 'Community Outreach', image: '/pictures/about/team/sarah.jpg' },
+              { name: 'David Chen', role: 'Operations Manager', image: '/pictures/about/team/david.jpg' }
             ].map((member, index) => (
               <div key={index} style={{ textAlign: 'center' }}>
                 <img 

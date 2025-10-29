@@ -6,7 +6,7 @@ export const services = [
     description: "Beautiful wedding ceremonies with complete setup and coordination",
     price: "$500-2000",
     duration: "4-8 hours",
-    image: "",
+    image: "/pictures/services/Event-Based Services/wedding-ceremony.jpg",
     features: ["Venue setup", "Ceremony coordination", "Basic decorations", "Sound system"]
   },
   {
@@ -16,7 +16,7 @@ export const services = [
     description: "Compassionate funeral services with full support for families",
     price: "$300-1500",
     duration: "2-4 hours",
-    image: "",
+    image: "/pictures/services/Event-Based Services/funeral.jpg",
     features: ["Memorial setup", "Family support", "Coordination", "Flowers arrangement"]
   },
   {
@@ -26,7 +26,7 @@ export const services = [
     description: "Professional meeting spaces with audio/visual equipment",
     price: "$50-200",
     duration: "2-6 hours",
-    image: "",
+    image: "/pictures/services/Event-Based Services/community-meeting.jpg",
     features: ["Meeting room", "A/V equipment", "Refreshments", "Setup/cleanup"]
   },
   {
@@ -36,7 +36,7 @@ export const services = [
     description: "Tables, chairs, tents, and other event equipment",
     price: "$25-500",
     duration: "1-3 days",
-    image: "",
+    image: "/pictures/services/Event-Based Services/event-equipment.jpg",
     features: ["Tables & chairs", "Tents", "Sound equipment", "Delivery included"]
   },
   {
@@ -46,7 +46,7 @@ export const services = [
     description: "Delicious catering for events of all sizes",
     price: "$15-50 per person",
     duration: "Event duration",
-    image: "",
+    image: "/pictures/services/Event-Based Services/catering.jpg",
     features: ["Custom menus", "Professional service", "Setup/cleanup", "Dietary accommodations"]
   },
 
@@ -57,7 +57,7 @@ export const services = [
     description: "Learn Spanish with experienced native speakers",
     price: "$20-40 per class",
     duration: "1-2 hours",
-    image: "",
+    image: "/pictures/services/Educational Services/spanish-class.jpg",
     features: ["All skill levels", "Native speakers", "Small groups", "Cultural activities"]
   },
   {
@@ -67,7 +67,7 @@ export const services = [
     description: "Creative workshops for all ages and skill levels",
     price: "$15-35 per session",
     duration: "2-3 hours",
-    image: "",
+    image: "/pictures/services/Educational Services/arts-and-crafts.jpg",
     features: ["All materials included", "Expert instruction", "Take home projects", "Group discounts"]
   },
   {
@@ -77,7 +77,7 @@ export const services = [
     description: "Explore your artistic side with guided painting sessions",
     price: "$25-45 per class",
     duration: "2-3 hours",
-    image: "",
+    image: "/pictures/services/Educational Services/painting-class.jpg",
     features: ["Canvas & paints included", "Professional instruction", "All skill levels", "Wine & paint options"]
   },
 
@@ -88,7 +88,7 @@ export const services = [
     description: "Compassionate in-home care for elderly and disabled individuals",
     price: "$20-35 per hour",
     duration: "2-24 hours",
-    image: "",
+    image: "/pictures/services/External Services/homecare.jpg",
     features: ["Licensed caregivers", "Personal care", "Companionship", "Light housekeeping"]
   },
   {
@@ -98,7 +98,7 @@ export const services = [
     description: "Safe and reliable transportation for community members",
     price: "$5-25 per trip",
     duration: "30 minutes - 2 hours",
-    image: "",
+    image: "/pictures/services/External Services/shuttle.jpg",
     features: ["Door-to-door service", "Wheelchair accessible", "Medical appointments", "Shopping trips"]
   }
 ];
