@@ -4,6 +4,8 @@ import Card from '../components/common/Card';
 import { translations } from '../data/translations';
 import { testimonials, announcements } from '../data/mockData';
 import './Home.css';
+import heroSupport from '../assets/images/hero-support.webp';
+
 
 const Home = ({ language, accessibilitySettings }) => {
   const t = translations[language];
@@ -52,11 +54,12 @@ const Home = ({ language, accessibilitySettings }) => {
             </div>
           </div>
           <div className="hero-image">
-            <img 
-              src="" 
-              alt="Best Community Services"
-              className="hero-img"
-            />
+           <img
+                src={heroSupport}
+                alt="Volunteers assisting residents at a community help desk"
+                className="hero-img"
+              />
+
           </div>
         </div>
       </section>

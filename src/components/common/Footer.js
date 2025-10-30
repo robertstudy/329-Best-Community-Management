@@ -75,7 +75,7 @@ const Footer = ({ language, accessibilitySettings }) => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <div className="copyright">
-              <p>&copy; 2024 Best Community Services. All rights reserved.</p>
+              <p>&copy; 2025 Best Community Services. All rights reserved.</p>
             </div>
             <div className="legal-links">
               <a href="#" className="legal-link">{t.privacyPolicy}</a>
